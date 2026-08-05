@@ -9,11 +9,11 @@
     border:none;
     margin-right: 20px;
     font-size: 15px;
+    transition: opacity 0.2s;
   }
 
   .subscribe-button:hover{
     opacity: 0.8;
-    transition: 0.2s;
   }
 
   .subscribe-button:active{
@@ -32,12 +32,12 @@
     border-style: solid;
     margin-right: 20px;
     font-size: 15px;
+    transition: background-color 0.2s, color 0.2s;
   }
 
   .join-button:hover{
     background-color:rgb(12, 92, 219);
     color: white;
-    transition: 0.2s;
   }
 
   .join-button:active{
@@ -54,17 +54,14 @@
     border:none;
     font-weight: bold;
     font-size: 15px;
-     margin-right: 20px;
+    margin-right: 20px;
+    transition: box-shadow 0.2s;
+    }
+
+  .tweet-button:hover{
+    box-shadow: 3px 5px 5px rgba(0,0,0,0.15);
   }
 
-  .tweet-buton:hover{
-    shadow:grey;
-    transition: 0.2s;
-  }
-
-  .tweet-button:active{
-    opacity:0.5;
-  }
 </style>
 
 <button class="subscribe-button">  SUBSCRIBE  </button>
@@ -96,8 +93,12 @@
     width: 100px;
     border:none;
     cursor: pointer;
-     margin-right: 20px;
+    margin-right: 20px;
+    transition: opacity 0.2s;
   }
+.Uber-button:hover{
+  opacity: 0.8;
+}
 
   .Amazon-button{
     background-color: rgb(255,216,20);
@@ -107,7 +108,12 @@
     border:none;
     cursor:pointer;
     border-radius: 17px;
-     margin-right: 20px;
+    margin-right: 20px;
+    transition: background-color 0.2s;
+  }
+
+  .Amazon-button:hover{
+    background-color: rgb(237, 202, 47);
   }
 
   .GitHub-button{
@@ -119,9 +125,13 @@
     cursor:pointer;
     font-weight: bold;
     border-radius: 5px;
-     margin-right: 20px;
+    margin-right: 20px;
+    transition: box-shadow 0.2s;
   }
 
+  .GitHub-button:hover{
+    box-shadow: 3px 5px 5px rgba(0,0,0,0.15);
+  }
   .Bootstrap-button-1{
     background-color: rgb(121,82,179);
     color:white;
@@ -131,7 +141,12 @@
     width: 95px;
     cursor: pointer;
     font-weight: bold;
-     margin-right: 20px;
+    margin-right: 20px;
+    transition: background-color 0.2s;
+  }
+
+  .Bootstrap-button-1:hover{
+    background-color: rgb(94, 66, 139);
   }
 
   .Bootstrap-button-2{
@@ -145,6 +160,12 @@
     width: 95px;
     cursor: pointer;
     margin-right: 20px;
+    transition: background-color 0.2s, color 0.2s;
+  }
+
+  .Bootstrap-button-2:hover{
+    background-color: rgb(108,117,125);
+    color: white;
   }
 
   .LinkedIn-button-1{
@@ -156,7 +177,12 @@
     width: 210px;
     border-radius: 20px;
     cursor: pointer;
-     margin-right: 20px;
+    margin-right: 20px;
+    transition: background-color 0.2s;
+  }
+
+  .LinkedIn-button-1:hover{
+    background-color: rgb(10, 78, 147);
   }
 
   .LinkedIn-button-2{
@@ -170,5 +196,12 @@
     height:35px;
     width: 75px;
     cursor:pointer;
+    transition: background-color 0.2s, color 0.2s, border-width 0.2s;
+  }
+  
+  .LinkedIn-button-2:hover{
+    background-color:rgb(198, 211, 235);
+    color: rgb(10,102,194);
+    border-width: 2px;
   }
   </style>
