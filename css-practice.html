@@ -7,6 +7,7 @@
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    vertical-align:center;
     cursor: pointer;
     border:none;
     margin-right: 20px;
@@ -26,8 +27,8 @@
     background-color:rgb(255, 255, 255);
     color:rgb(12, 92, 219);
     border-radius: 3px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
     padding-left: 20px;
     padding-right: 20px;
     cursor: pointer;
@@ -35,6 +36,7 @@
     border-width: 1px;
     border-style: solid;
     margin-right: 20px;
+    vertical-align:center;
     font-size: 15px;
     transition: background-color 0.2s, color 0.2s;
   }
@@ -55,6 +57,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
+    vertical-align: center;
     padding-right: 20px;
     cursor:pointer;
     border:none;
@@ -99,6 +102,7 @@
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    vertical-align: center;
     border:none;
     cursor: pointer;
     margin-right: 20px;
@@ -115,6 +119,7 @@
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    vertical-align: center;
     border:none;
     cursor:pointer;
     border-radius: 17px;
@@ -134,6 +139,7 @@
     padding-left: 20px;
     padding-right: 20px;
     border:none;
+    vertical-align: center;
     cursor:pointer;
     font-weight: bold;
     border-radius: 5px;
@@ -155,6 +161,7 @@
     padding-right: 20px;
     cursor: pointer;
     font-weight: bold;
+    vertical-align: center;
     margin-right: 20px;
     transition: background-color 0.2s;
   }
@@ -170,9 +177,10 @@
     border-width: 1px;
     border-color: rgb(108,117,125);
     border-radius: 3px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
     padding-left: 20px;
+    vertical-align: center;
     padding-right: 20px;
     cursor: pointer;
     margin-right: 20px;
@@ -194,6 +202,7 @@
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 20px;
+    vertical-align: center;
     cursor: pointer;
     margin-right: 20px;
     transition: background-color 0.2s;
@@ -211,12 +220,13 @@
     border-color: rgb(10,102,194);
     border-width: 1px;
     border-radius: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 9px;
+    vertical-align: center;
+    padding-bottom: 9px;
     padding-left: 20px;
     padding-right: 20px;
     cursor:pointer;
-    transition: background-color 0.2s, color 0.2s, border-width 0.2s;
+    transition: background-color 0.2s, color 0.2s, border-width 0.1s;
   }
   
   .LinkedIn-button-2:hover{
@@ -225,3 +235,99 @@
     border-width: 2px;
   }
   </style>
+
+  <style>
+    .navigation{
+      margin-right: 20px;
+      margin-left: 10px;
+      padding-top: 5px;
+      padding-bottom: 5x;
+      padding-left: 10px;
+      padding-right:10px;
+      margin-top:10px;
+      border-width:1px;
+      border-radius:3px;
+      cursor: pointer;
+    }
+
+    .numbers{
+      margin-right:10px;
+    }
+  </style>
+
+  <button class="navigation">Back</button>
+  <a class="numbers" href="">1</a>
+  <a class="numbers" href="">2</a>
+  <a class="numbers" href="">3</a>
+  <a class="numbers" href="">4</a>
+  <a class="numbers" href="">5</a>
+  <button class="navigation">Next</button>
+
+  <style>
+    .stretch{
+      background-color: green;
+      color:white;
+      border:none;
+      padding-top: 7px;
+      padding-bottom:7px;
+      padding-left: 10px;
+      padding-right: 10px;
+      transition: padding 0.2s;
+      cursor: pointer;
+
+    }
+
+    .stretch:hover{
+      padding-top:12px;
+      padding-bottom:12px;
+      padding-left: 15px;
+      padding-right: 15px;
+    
+    }
+
+    .shadow{
+      background-color: green;
+      color:white;
+      border:none;
+      padding-top: 7px;
+      padding-bottom:7px;
+      padding-left: 10px;
+      padding-right: 10px;
+      transition: box-shadow 0.2s;
+      cursor: pointer;
+    }
+
+    .shadow:active{
+      box-shadow: 3px 5px 5px rgba(0,0,0,0.15);
+    }
+  </style>
+
+  <button class="stretch">Stretch</button>
+  <button class="shadow">Shadow</button>
+
+  <style>
+    .expand{
+      background-color: green;
+      color:white;
+      border:none;
+      margin-left: 10px;
+      margin-right:10px;
+      padding-top: 7px;
+      padding-bottom:7px;
+      padding-left: 10px;
+      padding-right: 10px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .expand:hover{
+      margin-left:5px;
+      margin-right:5px;
+      padding-left:15px;
+      padding-right:15px;
+    }
+  </style>
+
+  <button class="expand">One</button>
+  <button class="expand">Two</button>
+  <button class="expand">Three</button>
